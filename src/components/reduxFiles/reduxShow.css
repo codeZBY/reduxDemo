@@ -1,0 +1,33 @@
+label{
+  color: #666;
+  font-weight: bold;
+}
+.spanArr{
+  margin-top: 30px;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-around;
+  -webkit-justify-content:space-around;
+
+}
+.spanArr span{
+  border: 1px solid #999;
+  padding: 4px 8px;
+  border-radius: 3px;
+  background: #f0f0f0;
+  cursor: pointer;
+}
+.hasChoosed{
+  min-height:100px; 
+  margin-top: 10px;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-around;
+  -webkit-justify-content:space-around;
+}
+.change{
+  float: right;
+  margin-right: 16px;
+  color: #66CD00;
+  cursor: pointer;
+}
